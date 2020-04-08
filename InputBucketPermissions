@@ -8,10 +8,10 @@
                 "Service": "ses.amazonaws.com"
             },
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::castlefarmimages/*",
+            "Resource": "arn:aws:s3:::S3BucketName/*",
             "Condition": {
                 "StringEquals": {
-                    "aws:Referer": "233074397874"
+                    "aws:Referer": "1111122223334"
                 }
             }
         }
